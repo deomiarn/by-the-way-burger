@@ -26,12 +26,12 @@ const Hero174 = ({
   return (
     <Fragment>
       <section
-        className="font-dm_sans dark relative h-[85svh] max-h-[1200px] min-h-[550px] w-full bg-cover bg-center bg-no-repeat after:absolute after:inset-0 after:block after:size-full after:bg-zinc-950/60 after:content-['']"
+        className="font-dm_sans dark relative h-[85svh] max-h-[1200px] min-h-[550px] w-full overflow-hidden bg-cover bg-center bg-no-repeat after:absolute after:inset-0 after:block after:size-full after:bg-zinc-950/60 after:content-['']"
         style={{ backgroundImage: `url('${backgroundImage}')` }}
       >
         <div className="relative z-10 mx-auto flex size-full max-w-[125rem] px-4 py-9">
-          <div className="flex w-full flex-col justify-between gap-10">
-            <div className="mx-auto flex max-w-[31.25rem] flex-1 flex-col items-center justify-center gap-7 sm:max-w-[37.5rem] md:max-w-[50rem]">
+          <div className="flex w-full flex-col justify-end gap-6 md:justify-between md:gap-10">
+            <div className="mx-auto flex max-w-[31.25rem] flex-col items-center justify-center gap-5 md:flex-1 md:gap-7 sm:max-w-[37.5rem] md:max-w-[50rem]">
               <h1 className="text-white text-center">
                 {title}
               </h1>
@@ -67,7 +67,7 @@ const Hero174 = ({
                 </Button>
               </div>
             </div>
-            <div className="flex items-center justify-between gap-4 rounded-lg bg-black/30 px-6 py-4 backdrop-blur-sm">
+            <div className="flex shrink-0 items-center justify-between gap-4 rounded-lg bg-black/30 px-4 py-3 backdrop-blur-sm md:px-6 md:py-4">
               <div className="flex items-center gap-3">
                 <div className="bg-primary h-8 w-1"></div>
                 <div className="text-white/80 text-sm font-medium">
