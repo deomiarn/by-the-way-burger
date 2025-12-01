@@ -28,7 +28,7 @@ const Hero174 = ({
   return (
     <Fragment>
       <section
-        className="font-dm_sans dark relative h-[85svh] max-h-[1200px] min-h-[550px] w-full overflow-hidden bg-cover bg-center bg-no-repeat after:absolute after:inset-0 after:block after:size-full after:bg-zinc-950/60 after:content-['']"
+        className="font-dm_sans dark relative h-[90svh] max-h-[1200px] min-h-[650px] w-full overflow-hidden bg-cover bg-center bg-no-repeat after:absolute after:inset-0 after:block after:size-full after:bg-zinc-950/60 after:content-['']"
         style={{ backgroundImage: `url('${backgroundImage}')` }}
       >
         <div className="relative z-10 mx-auto flex size-full max-w-[125rem] px-4 py-9">
