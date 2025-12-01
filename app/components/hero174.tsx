@@ -32,7 +32,7 @@ const Hero174 = ({
         style={{ backgroundImage: `url('${backgroundImage}')` }}
       >
         <div className="relative z-10 mx-auto flex size-full max-w-[125rem] px-4 py-9">
-          <div className="flex w-full flex-col justify-end gap-6 md:justify-between md:gap-10">
+          <div className="flex w-full flex-col justify-end gap-20 md:justify-between md:gap-24">
             <div className="mx-auto flex max-w-[31.25rem] flex-col items-center justify-center gap-5 md:flex-1 md:gap-7 sm:max-w-[37.5rem] md:max-w-[50rem]">
               <h1 className="text-white text-center">
                 {title}
