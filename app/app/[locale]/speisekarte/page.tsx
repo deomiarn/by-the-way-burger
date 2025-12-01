@@ -55,6 +55,7 @@ export default function MenuPage() {
         secondaryButtonText="Über uns"
         secondaryButtonHref="/de/ueber-uns"
         backgroundImage="https://images.unsplash.com/photo-1550547660-d9450f859349?w=1920&q=80"
+        scrollTargetId="speisekarte"
       />
       <FoodMenu />
       <Stats1 variant="muted" />

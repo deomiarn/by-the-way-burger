@@ -12,6 +12,7 @@ interface Hero174Props {
   secondaryButtonText?: string;
   secondaryButtonHref?: string;
   backgroundImage?: string;
+  scrollTargetId?: string;
 }
 
 const Hero174 = ({
@@ -22,6 +23,7 @@ const Hero174 = ({
   secondaryButtonText = "Jetzt bestellen",
   secondaryButtonHref = "tel:+41772905231",
   backgroundImage = "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=1920&q=80",
+  scrollTargetId = "menu-preview",
 }: Hero174Props) => {
   return (
     <Fragment>
@@ -80,7 +82,7 @@ const Hero174 = ({
                 size="icon"
                 asChild
               >
-                <a href="#menu-preview">
+                <a href={`#${scrollTargetId}`}>
                   <ArrowDown className="size-5" />
                 </a>
               </Button>

@@ -1,4 +1,5 @@
 interface Feature60Props {
+  id?: string;
   title?: string;
   description?: string;
   imageSrc?: string;
@@ -7,6 +8,7 @@ interface Feature60Props {
 }
 
 const Feature60 = ({
+  id,
   title = "Unsere Smash Burger Technik",
   description = "Bei BY THE WAY werden unsere Burger auf der heissen Platte perfekt gesmashed. Das Ergebnis: Eine knusprige Kruste aussen und saftiges, aromatisches Fleisch innen. Ein Geschmackserlebnis, das Sie nicht vergessen werden.",
   imageSrc = "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
@@ -36,7 +38,7 @@ const Feature60 = ({
   );
 
   return (
-    <section className={`${removeTopPadding ? 'pb-20 md:pb-32' : 'py-20 md:py-32'} bg-background`}>
+    <section id={id} className={`${removeTopPadding ? 'pb-20 md:pb-32' : 'py-20 md:py-32'} bg-background`}>
       <div className="container mx-auto px-4">
         <div className="lg:flex items-center gap-12">
           {imagePosition === "left" ? (

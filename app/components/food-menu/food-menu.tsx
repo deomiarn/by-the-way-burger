@@ -13,7 +13,7 @@ import { MenuItem } from './menu-item';
 
 export function FoodMenu() {
   return (
-    <section className="w-full bg-background py-20 md:py-32">
+    <section id="speisekarte" className="w-full bg-background py-20 md:py-32">
       <div className="container mx-auto px-4">
         <div className="text-center max-w-2xl mx-auto mb-12">
           <h2 className="text-4xl font-bold mb-2">Unsere Speisekarte</h2>

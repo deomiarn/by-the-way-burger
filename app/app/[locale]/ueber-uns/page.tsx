@@ -59,13 +59,14 @@ export default function AboutPage() {
             primaryButtonText="Speisekarte ansehen"
             primaryButtonHref="/de/speisekarte"
             backgroundImage="https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?w=1920&q=80"
+            scrollTargetId="ueber-uns-intro"
           />
         </div>
       </div>
 
       <div className="w-full flex justify-center bg-muted">
         <div className="w-full">
-          <Feature60 />
+          <Feature60 id="ueber-uns-intro" />
         </div>
       </div>
 
