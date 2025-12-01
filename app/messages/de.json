@@ -1,1 +1,251 @@
-{}
+{
+  "common": {
+    "nav": {
+      "home": "Startseite",
+      "menu": "Speisekarte",
+      "about": "Über uns",
+      "contact": "Kontakt",
+      "impressum": "Impressum",
+      "datenschutz": "Datenschutz"
+    },
+    "footer": {
+      "description": "Authentische Burger Steinmaur & Balkan Grillspezialitäten mit 100% Schweizer Rindfleisch",
+      "follow": "Folgen Sie uns",
+      "contact": "Kontakt",
+      "hours": "Öffnungszeiten",
+      "address": "Adresse",
+      "phone": "Telefon",
+      "email": "E-Mail",
+      "legal": "Rechtliches",
+      "copyright": "© 2025 BY THE WAY - BURGER & GRILLHAUS. Alle Rechte vorbehalten."
+    },
+    "cta": {
+      "learnMore": "Mehr erfahren",
+      "viewMenu": "Speisekarte ansehen",
+      "orderNow": "Jetzt bestellen",
+      "visitUs": "Besuchen Sie uns",
+      "contactUs": "Kontaktieren Sie uns",
+      "getStarted": "Jetzt starten"
+    }
+  },
+  "homepage": {
+    "hero": {
+      "label": "Willkommen",
+      "title": "Burger Steinmaur: Authentische Smash Burgers & Balkan Grillspezialitäten bei BY THE WAY",
+      "subtitle": "Frische Zutaten aus der Region. Hausgemachte Saucen. 100% Schweizer Rindfleisch.",
+      "description": "Willkommen bei BY THE WAY - Ihrem Grillhaus für saftige Smash Burger und authentische Balkan Spezialitäten. Wir servieren die besten Burger in Steinmaur mit frischen, regionalen Zutaten und traditionellen Rezepten. Jetzt bestellen unter 077 290 52 31!",
+      "cta": "Speisekarte ansehen"
+    },
+    "stats": {
+      "title": "BY THE WAY in Zahlen",
+      "stat1Label": "Happy Customers",
+      "stat1Value": "500+",
+      "stat2Label": "Gerichte",
+      "stat2Value": "38",
+      "stat3Label": "Swiss Beef",
+      "stat3Value": "100%"
+    },
+    "menuPreview": {
+      "title": "Unsere Spezialitäten - Smash Burgers, Balkan Grill & Premium Gerichte",
+      "description": "Bei BY THE WAY vereinen wir das Beste aus zwei kulinarischen Welten: saftige amerikanische Smash Burger und authentische Balkan Grillspezialitäten. Unsere Smash Burger werden nach traditioneller Technik zubereitet - auf heisser Platte für maximalen Geschmack. Probieren Sie unsere Balkan Klassiker wie hausgemachte Cevapcici und saftige Pljeskavica, zubereitet nach Originalrezepten. Alle Burger werden mit 100% Schweizer Rindfleisch und frischen, regionalen Zutaten hergestellt. Von knusprigen Chicken Wings bis zu vegetarischen Optionen - bei uns findet jeder sein Lieblingsgericht. Entdecken Sie unsere volle Speisekarte mit 38 Gerichten!",
+      "cta": "Zur Speisekarte"
+    },
+    "features": {
+      "title": "Warum BY THE WAY wählen?",
+      "feature1Title": "Frische, regionale Zutaten",
+      "feature1Description": "Für unsere Burger Steinmaur beziehen wir Zutaten von sorgfältig ausgewählten regionalen Lieferanten. Von knackfrischem Gemüse bis zu Premium Fleisch - jede Zutat wird täglich frisch angeliefert. So garantieren wir nicht nur erstklassigen Geschmack unserer Burger Dielsdorf und Steinmaur, sondern unterstützen auch lokale Produzenten.",
+      "feature2Title": "Authentische Balkan Rezepte",
+      "feature2Description": "Unsere Balkan Spezialitäten werden nach traditionellen Rezepten zubereitet, die über Generationen weitergegeben wurden. Ob würzige Cevapcici, saftige Pljeskavica oder aromatische Marinaden - jedes Gericht spiegelt die authentische Balkan Küche wider. Wir verwenden nur original Gewürzmischungen und traditionelle Zubereitungsmethoden für den unverfälschten Geschmack der Balkanregion.",
+      "feature3Title": "Hausgemachte Saucen",
+      "feature3Description": "Jede unserer Saucen wird täglich frisch in unserer Küche zubereitet. Von würziger Chipotle Mayo über cremige Knoblauch-Sauce bis zu klassischer BBQ-Sauce - unsere hausgemachten Kreationen machen den Unterschied. Keine Fertigprodukte, keine Kompromisse. Nur pure, frische Aromen, die Ihre Burger und Grillgerichte auf ein neues Level heben.",
+      "feature4Title": "100% Schweizer Rindfleisch",
+      "feature4Description": "Für unsere Burger verwenden wir ausschliesslich Premium Rindfleisch aus der Schweiz. Jeder Patty wird aus hochwertigem Fleisch von Schweizer Bauernhöfen hergestellt, die für artgerechte Tierhaltung und höchste Qualitätsstandards stehen. Das Ergebnis: saftige, geschmackvolle Burger, die Sie schmecken können. Qualität, auf die wir stolz sind - 100% Swiss Beef."
+    },
+    "gallery": {
+      "title": "Unsere Kreationen"
+    },
+    "testimonials": {
+      "title": "Was unsere Kunden sagen",
+      "testimonial1Author": "Stefan M. (Google Reviews ⭐⭐⭐⭐⭐)",
+      "testimonial1Text": "Die besten Burger in Steinmaur! Frische Zutaten, perfekt gegrillt, und die Balkan Spezialitäten sind authentisch und lecker. Absolute Empfehlung!",
+      "testimonial2Author": "Marina K. (TripAdvisor ⭐⭐⭐⭐⭐)",
+      "testimonial2Text": "Als Balkanerin kann ich bestätigen - die Cevapcici sind wie zu Hause! Die Smash Burger sind auch fantastisch. Gratis Lieferung ist ein Plus!",
+      "testimonial3Author": "Thomas R. (Google Reviews ⭐⭐⭐⭐⭐)",
+      "testimonial3Text": "Tolles Grillhaus mit riesiger Auswahl. Von klassischen Burgern bis zu Balkan Grill - alles perfekt. Schneller Service, faire Preise."
+    },
+    "banner": {
+      "text": "Gratis Lieferung ab 15 CHF in Steinmaur & Dielsdorf! Jetzt bestellen: 077 290 52 31"
+    },
+    "contact": {
+      "title": "Besuchen Sie uns in Steinmaur",
+      "phone": "Jetzt bestellen",
+      "address": "Unser Standort",
+      "hours": "Öffnungszeiten",
+      "cta": "Route planen"
+    },
+    "instagram": {
+      "title": "Folgen Sie uns auf Instagram",
+      "handle": "@BYTHEWAY.CH"
+    }
+  },
+  "speisekarte": {
+    "hero": {
+      "label": "Entdecken Sie unsere volle Auswahl",
+      "title": "Speisekarte - Smash Burger, Balkan Grill & Grillspezialitäten in Steinmaur",
+      "description": "Willkommen zu unserer Speisekarte mit 38 handverlesenen Gerichten! Von klassischen Smash Burgern über authentische Balkan Spezialitäten bis zu Premium Kreationen - hier finden Sie garantiert Ihr neues Lieblingsgericht. Alle Burger werden mit 100% Schweizer Rindfleisch, frischen Zutaten und hausgemachten Saucen zubereitet. Take-away oder Lieferung? Wir bringen Ihnen die besten Burger in Steinmaur direkt nach Hause - gratis ab 15 CHF!"
+    },
+    "intro": {
+      "text": "Entdecken Sie 38 Gerichte in 9 Kategorien"
+    },
+    "categories": {
+      "smashBurgers": "Unsere legendären Smash Burgers werden nach traditioneller amerikanischer Technik zubereitet. Jeder Patty wird auf der heissen Platte \"gesmashed\" für eine perfekte Kruste und maximalen Geschmack. Mit 100% Schweizer Rindfleisch, frischen Toppings und hausgemachten Saucen - so muss ein Burger in Steinmaur schmecken!",
+      "chicken": "Für Geflügel-Liebhaber: saftige Chicken Burger mit knusprig paniertem oder gegrilltem Hähnchenfleisch. Jeder Chicken Burger kommt mit frischen Zutaten, knackigem Salat und unseren hausgemachten Saucen. Leichter als Rindfleisch, aber genauso geschmackvoll!",
+      "premium": "Unsere Premium Burger-Linie für besondere Ansprüche. Mit edlen Zutaten wie Trüffel-Mayo, Bacon Jam, gereiftem Cheddar und Premium Toppings. Jeder Premium Burger wird mit extra-dickem Patty aus 100% Schweizer Rindfleisch serviert. Gönnen Sie sich das Beste vom Grillhaus Steinmaur!",
+      "veggie": "Auch ohne Fleisch ein Genuss! Unser hausgemachter Falafel Burger überzeugt mit würzigen Kichererbsen-Patties, frischem Gemüse und cremiger Tahini-Sauce. Vegetarisch, aber voller Geschmack - perfekt für pflanzliche Ernährung.",
+      "balkan": "Die Fusion-Kategorie: traditionelle Balkan Spezialitäten im Burger-Format! Probieren Sie unsere Pljeskavica oder Cevapcici im Brötchen - authentische Balkan Rezepte treffen auf amerikanisches Burger-Konzept. Gewürzt nach Originalrezepten, gegrillt zur Perfektion. Ein einzigartiges Geschmackserlebnis, das Sie nur bei BY THE WAY Burger & Grillhaus finden!",
+      "grill": "Authentische Balkan Grill Klassiker aus unserem Grillhaus Steinmaur, zubereitet nach traditionellen Rezepten. Unsere Cevapcici, Pljeskavica und Grillplatten werden über offener Flamme gegrillt für den unverfälschten Balkan Geschmack. Serviert mit frischem Brot, Ajvar und Zwiebelringen. Die echte Balkan Küche für Burger Steinmaur und Burger Dielsdorf Liebhaber!",
+      "boxes": "Unsere beliebten Kombi-Boxen zum Vorteilspreis! Jede Box enthält Burger oder Grill-Gericht Ihrer Wahl plus Pommes und Getränk. Perfekt für schnellen Hunger oder Take-away. Sparen Sie mit unseren Box-Angeboten!",
+      "kids": "Kindgerechte Portionen mit allem, was Kids lieben! Jedes Kinder Menü kommt mit Pommes und einem Softdrink. Qualität wie bei den Grossen, aber in perfekter Grösse für kleine Esser.",
+      "desserts": "Süsse Abschlüsse zu unseren Gerichten. Von klassischen Desserts bis zu modernen Kreationen - der perfekte Abschluss Ihres Besuchs!"
+    },
+    "menuItems": {
+      "note": "Alle Preise in CHF. Allergene sind auf Anfrage erhältlich."
+    },
+    "stats": {
+      "title": "Unsere Speisekarte in Zahlen",
+      "stat1Label": "Gerichte",
+      "stat1Value": "38",
+      "stat2Label": "Kategorien",
+      "stat2Value": "9",
+      "stat3Label": "Veggie-Optionen",
+      "stat3Value": "Verfügbar"
+    },
+    "delivery": {
+      "title": "Gratis Lieferung ab 15 CHF",
+      "description": "Geniessen Sie unsere Burger Steinmaur und Dielsdorf sowie authentische Balkan Spezialitäten bequem zu Hause! Wir bieten kostenlosen Lieferservice für Burger Steinmaur und Burger Dielsdorf ab einem Bestellwert von nur 15 CHF. Rufen Sie uns einfach unter 077 290 52 31 an. Unser freundliches Team nimmt Ihre Wünsche entgegen und liefert Ihr Essen frisch und heiss direkt zu Ihrer Haustür. Auch Take-away ist jederzeit möglich - bestellen Sie vor und holen Sie Ihre Bestellung ab. Keine Wartezeit, keine Lieferkosten - so einfach kommen Sie zu den besten Burgern!",
+      "minOrder": "Mindestbestellwert: 15 CHF"
+    },
+    "allergens": {
+      "title": "Allergen & Ernährungsinformationen",
+      "description": "Ihre Gesundheit liegt uns am Herzen. Alle Allergen-Informationen auf Anfrage verfügbar.",
+      "faq1Question": "Welche vegetarischen Optionen bietet ihr an?",
+      "faq1Answer": "Wir bieten einen hausgemachten Falafel Burger sowie verschiedene Salate und Beilagen an. Sprechen Sie uns an - wir können viele Burger auch vegetarisch anpassen!",
+      "faq2Question": "Gibt es glutenfreie Optionen?",
+      "faq2Answer": "Auf Anfrage können wir glutenfreie Brötchen für alle unsere Burger anbieten. Bitte geben Sie dies bei Ihrer Bestellung an.",
+      "faq3Question": "Woher stammt euer Rindfleisch?",
+      "faq3Answer": "Wir verwenden ausschliesslich 100% Schweizer Rindfleisch von zertifizierten Bauernhöfen aus der Region. Qualität und Herkunft sind uns wichtig.",
+      "faq4Question": "Enthalten eure Gerichte Allergene?",
+      "faq4Answer": "Unsere Gerichte können Gluten, Milchprodukte, Eier, Senf und Sesam enthalten. Für detaillierte Allergen-Informationen kontaktieren Sie uns bitte direkt.",
+      "faq5Question": "Sind eure Balkan Spezialitäten authentisch?",
+      "faq5Answer": "Ja! Unsere Cevapcici und Pljeskavica werden nach traditionellen Balkan Rezepten mit original Gewürzmischungen zubereitet."
+    },
+    "cta": {
+      "title": "Jetzt bestellen und geniessen!",
+      "description": "Haben Sie Hunger bekommen? Rufen Sie uns jetzt an und bestellen Sie Ihre Lieblings-Burger oder Balkan Spezialitäten! Unser Team berät Sie gerne und nimmt Ihre Bestellung entgegen. Gratis Lieferung ab 15 CHF in Steinmaur und Dielsdorf. Oder holen Sie Ihre Bestellung als Take-away ab - wir freuen uns auf Sie!",
+      "button": "Jetzt anrufen: 077 290 52 31"
+    },
+    "testimonials": {
+      "title": "Das sagen unsere Gäste",
+      "testimonial1Author": "Julia S. (Google Reviews ⭐⭐⭐⭐⭐)",
+      "testimonial1Text": "Habe schon viele Burger-Restaurants probiert, aber BY THE WAY ist definitiv das beste in Steinmaur! Die Smash Burgers sind perfekt, die Balkan Spezialitäten schmecken wie bei Oma. Riesige Portionen, faire Preise, super Service. Absolute Top-Empfehlung!",
+      "testimonial2Author": "Marc D. (Google Reviews ⭐⭐⭐⭐⭐)",
+      "testimonial2Text": "Cevapcici wie im Urlaub! Endlich ein Restaurant, das authentische Balkan Küche macht. Die Grillplatte ist der Hammer!"
+    }
+  },
+  "ueberUns": {
+    "hero": {
+      "label": "Unsere Geschichte",
+      "title": "Über uns - Grillhaus Steinmaur mit Leidenschaft für frische Burger & Balkan Küche",
+      "description": "Willkommen bei BY THE WAY - mehr als nur ein Restaurant in Steinmaur. Wir sind ein Grillhaus mit Herz und Leidenschaft für erstklassige Burger und authentische Balkan Spezialitäten. Seit unserer Gründung verbinden wir amerikanische Burger-Kultur mit traditioneller Balkan Küche und schaffen einzigartige Geschmackserlebnisse. Unsere Mission: die besten Burger in Steinmaur zu servieren - mit frischen, regionalen Zutaten und kompromissloser Qualität."
+    },
+    "story": {
+      "title": "Unsere Geschichte",
+      "text": "Die Geschichte von BY THE WAY begann mit einer einfachen Vision: die besten Burger in Steinmaur und Dielsdorf zu kreieren und authentische Balkan Spezialitäten zu bringen. Als leidenschaftliche Grill-Enthusiasten erkannten wir eine Lücke - es fehlte ein Ort, der amerikanische Burger-Qualität mit Balkan Tradition vereint.\n\nWir eröffneten unser Grillhaus an der Wehntalerstrasse 1 in Steinmaur. Von Anfang an: Keine Kompromisse bei Qualität! Wir bauten Beziehungen zu lokalen Lieferanten auf und perfektionierten unsere Smash Burger Technik. Traditionelle Balkan Rezepte mit original Gewürzmischungen ergänzten unser Angebot.\n\nHeute sind wir stolz, ein fester Bestandteil der Steinmaur Community zu sein. Mit über 500 zufriedenen Kunden und 4.7-Sterne-Rating haben wir uns als Grillhaus der Wahl etabliert. Unser Team, unsere Speisekarte und unser Service wachsen - aber unsere Grundwerte bleiben: frische Zutaten, authentische Rezepte, Leidenschaft für jeden Burger.\n\nWillkommen bei BY THE WAY - wo jeder Burger eine Geschichte erzählt!"
+    },
+    "values": {
+      "title": "Unsere Werte",
+      "value1Title": "Qualität an erster Stelle",
+      "value1Description": "Für uns bei BY THE WAY bedeutet Qualität keine Verhandlungssache. Von der Auswahl des Schweizer Rindfleischs bis zum letzten Salatblatt - jede Zutat durchläuft strenge Qualitätskontrollen. Wir arbeiten nur mit Lieferanten zusammen, die unsere hohen Standards teilen. Das Ergebnis: Burger und Balkan Spezialitäten, auf die wir stolz sind.",
+      "value2Title": "Frische über alles",
+      "value2Description": "Täglich frisch - das ist unser Versprechen. Unser Gemüse wird jeden Morgen geliefert, unsere Saucen täglich in der Küche zubereitet, unsere Burger-Brötchen von lokalen Bäckereien bezogen. Keine Fertigprodukte, keine Tiefkühlware, keine Abkürzungen. Frische ist der Grundstein für den unvergleichlichen Geschmack unserer Gerichte im Grillhaus Steinmaur.",
+      "value3Title": "Regionalität fördern",
+      "value3Description": "Als lokales Grillhaus mit Standorten für Burger Steinmaur und Burger Dielsdorf liegt uns regionale Wertschöpfung am Herzen. Wir beziehen Fleisch von Schweizer Bauernhöfen, Gemüse von regionalen Produzenten, Brötchen von Bäckereien aus der Umgebung. So unterstützen wir lokale Betriebe und garantieren kurze Lieferwege für maximale Frische.",
+      "value4Title": "Authentizität bewahren",
+      "value4Description": "Unsere Balkan Spezialitäten sind mehr als nur Gerichte - sie sind kulturelles Erbe. Wir verwenden original Rezepte, die über Generationen weitergegeben wurden, und traditionelle Zubereitungsmethoden ohne moderne Abkürzungen. Jeder Cevapcici, jede Pljeskavica wird nach dem gleichen Rezept zubereitet wie in der Balkanregion seit Jahrhunderten."
+    },
+    "sourcing": {
+      "title": "Vom Feld auf den Teller - Unsere Zutatenphilosophie",
+      "description": "Qualität beginnt bei der Auswahl. Deshalb arbeiten wir eng mit unseren Lieferanten zusammen und kontrollieren jede Zutat persönlich.",
+      "step1Title": "Schritt 1: Auswahl",
+      "step1Description": "Unser Qualitätsversprechen beginnt bei der Auswahl unserer Partner. Wir arbeiten ausschliesslich mit zertifizierten Schweizer Bauernhöfen für unser Rindfleisch, mit regionalen Gemüseproduzenten aus dem Kanton Zürich, und mit ausgewählten Importeuren für authentische Balkan Gewürze. Jeder Lieferant wird persönlich besucht, jedes Produkt getestet. Nur das Beste landet in unseren Burgern und Grillgerichten.",
+      "step2Title": "Schritt 2: Zubereitung",
+      "step2Description": "In unserer Küche verbinden wir Tradition mit Präzision. Unsere Smash Burger werden auf der heissen Platte nach klassischer amerikanischer Technik zubereitet. Unsere Balkan Spezialitäten werden von Hand geformt und über offener Flamme gegrillt - genau wie in der Heimat unserer Rezepte. Keine Fliessband-Produktion, sondern handwerkliche Zubereitung mit Sorgfalt und Erfahrung.",
+      "step3Title": "Schritt 3: Servierung",
+      "step3Description": "Jeder Burger, jede Balkan Spezialität verlässt unsere Küche erst, wenn sie unseren hohen Standards entspricht. Perfekt gegrillt, appetitlich angerichtet, und heiss serviert. Ob Take-away, Lieferung oder Verzehr vor Ort - wir garantieren die gleiche Qualität. Unser Team ist stolz auf jedes Gericht, das wir servieren. Dieser Stolz schmeckt man in jedem Bissen."
+    },
+    "gallery": {
+      "title": "Unser Grillhaus Steinmaur"
+    },
+    "milestones": {
+      "title": "Unsere Meilensteine",
+      "milestone1Year": "2022",
+      "milestone1Text": "Eröffnung von BY THE WAY an der Wehntalerstrasse 1 in Steinmaur. Die Vision beginnt: Die besten Burger und Balkan Spezialitäten der Region.",
+      "milestone2Year": "2023",
+      "milestone2Text": "Über 100 5-Sterne-Bewertungen auf Google. Die Steinmaur Community hat uns in ihr Herz geschlossen.",
+      "milestone3Year": "2024",
+      "milestone3Text": "Einführung unserer Premium Burger-Linie und erweitertes Balkan Grill-Angebot. 38 Gerichte in 9 Kategorien.",
+      "milestone4Year": "Heute",
+      "milestone4Text": "Über 500 zufriedene Kunden, gratis Lieferservice, und ein Team von leidenschaftlichen Mitarbeitern. Das beste Grillhaus in Steinmaur!"
+    },
+    "testimonials": {
+      "title": "Kundenstimmen",
+      "testimonial1Author": "Peter S. (Google Reviews ⭐⭐⭐⭐⭐)",
+      "testimonial1Text": "Endlich ein Restaurant in Steinmaur, das Qualität ernst nimmt! Die Burger sind saftig, die Balkan Spezialitäten authentisch, und das Team super freundlich. Unser neuer Stammlokal!",
+      "testimonial2Author": "Ana M. (TripAdvisor ⭐⭐⭐⭐⭐)",
+      "testimonial2Text": "Als Kroatin kann ich sagen: Die Cevapcici sind wie zu Hause! Endlich authentische Balkan Küche in der Schweiz. Auch die Burger sind top!",
+      "testimonial3Author": "Michael L. (Google Reviews ⭐⭐⭐⭐⭐)",
+      "testimonial3Text": "Bestes Grillhaus weit und breit. Schweizer Fleisch, faire Preise, riesige Portionen. Die Smash Burgers sind legendär!",
+      "testimonial4Author": "Sandra W. (Google Reviews ⭐⭐⭐⭐⭐)",
+      "testimonial4Text": "Absolut empfehlenswert! Toller Service, leckeres Essen und die Lieferung funktioniert super. Bestelle dort regelmässig!"
+    },
+    "contactCta": {
+      "label": "Wir freuen uns auf Ihren Besuch",
+      "title": "Besuchen Sie uns in Steinmaur",
+      "description": "Überzeugen Sie sich selbst von unserem Grillhaus! Besuchen Sie uns an der Wehntalerstrasse 1 in Steinmaur, rufen Sie für eine Take-away Bestellung an, oder lassen Sie sich liefern. Unser Team berät Sie gerne zu unseren Burgern und Balkan Spezialitäten. Wir sind für Sie da: Mi-Fr 11:00-13:30 & 17:00-21:00, Sa-So 13:00-21:00.",
+      "cta": "Route planen"
+    }
+  },
+  "impressum": {
+    "title": "Impressum - BY THE WAY Burger & Grillhaus",
+    "intro": "Hier finden Sie die gesetzlich erforderlichen Angaben zu unserer Website und unserem Unternehmen.",
+    "section1Title": "Angaben gemäss Schweizer Recht",
+    "section1Text": "Geschäftsname: BY THE WAY - BURGER & GRILLHAUS\n\nAdresse:\nWehntalerstrasse 1\n8162 Steinmaur\nSchweiz",
+    "section2Title": "Kontakt",
+    "section2Text": "Telefon: 077 290 52 31\nE-Mail: info@bytheway.ch\nInstagram: @BYTHEWAY.CH",
+    "section3Title": "Haftungsausschluss",
+    "section3Text": "Die Inhalte unserer Seiten wurden mit grösster Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen. Unser Angebot enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen Einfluss haben. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich.",
+    "section4Title": "Urheberrecht",
+    "section4Text": "Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem schweizerischen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung ausserhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers.",
+    "businessName": "BY THE WAY - BURGER & GRILLHAUS",
+    "address": "Wehntalerstrasse 1, 8162 Steinmaur, Schweiz",
+    "phone": "077 290 52 31",
+    "email": "info@bytheway.ch",
+    "vat": "Auf Anfrage erhältlich"
+  },
+  "datenschutz": {
+    "title": "Datenschutzerklärung - BY THE WAY Burger & Grillhaus",
+    "intro": "Diese Datenschutzerklärung klärt Nutzer über die Art, den Umfang und Zwecke der Erhebung und Verwendung personenbezogener Daten durch den verantwortlichen Anbieter BY THE WAY - BURGER & GRILLHAUS, Wehntalerstrasse 1, 8162 Steinmaur, Schweiz, auf dieser Website auf.",
+    "section1Title": "Geltungsbereich",
+    "section1Text": "Diese Datenschutzerklärung gilt für alle Informationen, die wir auf unserer Website sammeln oder die Sie uns freiwillig zur Verfügung stellen. Sie erklären sich mit der Erfassung und Verwendung Ihrer Daten wie in dieser Datenschutzerklärung beschrieben einverstanden.",
+    "section2Title": "Erhebung und Verarbeitung personenbezogener Daten",
+    "section2Text": "Personenbezogene Daten werden nur erhoben, wenn Sie uns diese im Rahmen einer Kontaktaufnahme freiwillig mitteilen. Wir erheben und speichern folgende Informationen:\n\n- Kontaktdaten (Name, Adresse bei Lieferung)\n- Telefonnummer (bei telefonischer Bestellung)\n- IP-Adresse und Zugriffszeiten (Server-Logs)\n\nDie Daten werden ausschliesslich zur Bestellabwicklung und Lieferung verwendet und nicht an Dritte weitergegeben.",
+    "section3Title": "Cookies und Tracking",
+    "section3Text": "Diese Website verwendet keine Tracking-Cookies oder Analyse-Tools. Es werden lediglich technisch notwendige Cookies für die Funktionalität der Website gesetzt. Diese Cookies enthalten keine persönlichen Daten und werden nach Ende Ihrer Sitzung automatisch gelöscht.",
+    "section4Title": "Ihre Rechte",
+    "section4Text": "Sie haben jederzeit das Recht auf:\n\n- Auskunft über Ihre gespeicherten Daten\n- Berichtigung unrichtiger Daten\n- Löschung Ihrer Daten\n- Einschränkung der Verarbeitung\n- Widerspruch gegen die Verarbeitung\n\nFür die Ausübung Ihrer Rechte kontaktieren Sie uns bitte unter: 077 290 52 31 oder info@bytheway.ch",
+    "section5Title": "Datensicherheit",
+    "section5Text": "Wir setzen technische und organisatorische Sicherheitsmassnahmen ein, um Ihre Daten gegen zufällige oder vorsätzliche Manipulationen, Verlust, Zerstörung oder den Zugriff unberechtigter Personen zu schützen. Unsere Sicherheitsmassnahmen werden entsprechend der technologischen Entwicklung laufend verbessert.",
+    "contactTitle": "Änderungen und Kontakt",
+    "contactText": "Wir behalten uns vor, diese Datenschutzerklärung anzupassen, damit sie stets den aktuellen rechtlichen Anforderungen entspricht. Für neue Besuche gilt dann die jeweils aktuelle Datenschutzerklärung. Bei Fragen zur Datenschutzerklärung kontaktieren Sie uns bitte unter: 077 290 52 31 oder info@bytheway.ch. Stand: November 2024"
+  }
+}

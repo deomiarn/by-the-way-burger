@@ -1,113 +1,79 @@
 interface StructuredDataProps {
   locale: string;
-  page?: 'home' | 'about' | 'services' | 'contact' | 'impressum' | 'datenschutz';
+  page?: 'home' | 'speisekarte' | 'ueber-uns' | 'impressum' | 'datenschutz';
 }
 
-const BASE_URL = 'https://realecontinental.ch';
+const BASE_URL = 'https://bytheway.ch';
 
 export function StructuredData({ locale, page = 'home' }: StructuredDataProps) {
   const organization = {
     '@context': 'https://schema.org',
     '@type': 'Organization',
-    name: 'Reale Continental GmbH',
+    name: 'BY THE WAY - BURGER & GRILLHAUS',
     url: BASE_URL,
-    logo: `${BASE_URL}/Logos/Logo-wordmark.png`,
     contactPoint: {
       '@type': 'ContactPoint',
-      telephone: '+41 76 420 97 60',
+      telephone: '+41 77 290 52 31',
       contactType: 'customer service',
-      availableLanguage: ['German', 'English'],
+      availableLanguage: ['German'],
     },
-    sameAs: [],
+    sameAs: ['https://www.instagram.com/bytheway.ch/'],
   };
 
-  const localBusiness = {
+  const restaurant = {
     '@context': 'https://schema.org',
-    '@type': 'AutoBodyShop',
-    '@id': `${BASE_URL}/#localbusiness`,
-    name: 'Reale Continental GmbH',
-    description:
-      locale === 'de'
-        ? 'Professionelle Karosserie- und Frontscheibenreparatur in Dielsdorf. Direkte Versicherungsabrechnung.'
-        : 'Professional bodywork and windshield repair in Dielsdorf. Direct insurance billing.',
+    '@type': 'Restaurant',
+    '@id': `${BASE_URL}/#restaurant`,
+    name: 'BY THE WAY - BURGER & GRILLHAUS',
+    description: 'Authentische Burger Steinmaur & Balkan Grillspezialitäten mit 100% Schweizer Rindfleisch. Smash Burgers, Cevapcici und Pljeskavica nach traditionellen Rezepten.',
     url: `${BASE_URL}/${locale}`,
-    telephone: '+41 76 420 97 60',
-    email: 'luigireale@hotmail.com',
+    telephone: '+41 77 290 52 31',
+    email: 'info@bytheway.ch',
     priceRange: '$$',
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress: 'Wehntalerstrasse 1',
+      addressLocality: 'Steinmaur',
+      postalCode: '8162',
+      addressCountry: 'CH',
+    },
+    geo: {
+      '@type': 'GeoCoordinates',
+      latitude: 47.4903,
+      longitude: 8.4667,
+    },
     openingHoursSpecification: [
       {
         '@type': 'OpeningHoursSpecification',
-        dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
-        opens: '08:00',
-        closes: '18:00',
+        dayOfWeek: ['Wednesday', 'Thursday', 'Friday'],
+        opens: '11:00',
+        closes: '13:30',
+      },
+      {
+        '@type': 'OpeningHoursSpecification',
+        dayOfWeek: ['Wednesday', 'Thursday', 'Friday'],
+        opens: '17:00',
+        closes: '21:00',
+      },
+      {
+        '@type': 'OpeningHoursSpecification',
+        dayOfWeek: ['Saturday', 'Sunday'],
+        opens: '13:00',
+        closes: '21:00',
       },
     ],
-    areaServed: {
-      '@type': 'GeoCircle',
-      geoMidpoint: {
-        '@type': 'GeoCoordinates',
-        latitude: 47.48,
-        longitude: 8.45,
-      },
-      geoRadius: '30000',
-    },
-    hasOfferCatalog: {
-      '@type': 'OfferCatalog',
-      name: locale === 'de' ? 'Unsere Leistungen' : 'Our Services',
-      itemListElement: [
-        {
-          '@type': 'Offer',
-          itemOffered: {
-            '@type': 'Service',
-            name: locale === 'de' ? 'Karosserieschäden' : 'Bodywork Repair',
-            description:
-              locale === 'de'
-                ? 'Professionelle Reparatur von Blechschäden, Dellen und Unfallschäden'
-                : 'Professional repair of body damage, dents, and accident damage',
-          },
-        },
-        {
-          '@type': 'Offer',
-          itemOffered: {
-            '@type': 'Service',
-            name: locale === 'de' ? 'Frontscheibenreparatur' : 'Windshield Repair',
-            description:
-              locale === 'de'
-                ? 'Steinschlagreparatur und Scheibenaustausch'
-                : 'Chip repair and windshield replacement',
-          },
-        },
-        {
-          '@type': 'Offer',
-          itemOffered: {
-            '@type': 'Service',
-            name: locale === 'de' ? 'Versicherungsabwicklung' : 'Insurance Claims',
-            description:
-              locale === 'de'
-                ? 'Komplette Abwicklung mit direkter Versicherungsabrechnung'
-                : 'Complete handling with direct insurance billing',
-          },
-        },
-      ],
-    },
+    servesCuisine: ['American', 'Balkan', 'Swiss'],
+    menu: `${BASE_URL}/de/speisekarte`,
+    acceptsReservations: 'False',
   };
 
   const breadcrumbLabels: Record<string, Record<string, string>> = {
     de: {
       home: 'Startseite',
-      about: 'Über uns',
-      services: 'Leistungen',
-      contact: 'Kontakt',
+      speisekarte: 'Speisekarte',
+      'ueber-uns': 'Über uns',
       impressum: 'Impressum',
       datenschutz: 'Datenschutz',
-    },
-    en: {
-      home: 'Home',
-      about: 'About',
-      services: 'Services',
-      contact: 'Contact',
-      impressum: 'Imprint',
-      datenschutz: 'Privacy Policy',
     },
   };
 
@@ -137,7 +103,7 @@ export function StructuredData({ locale, page = 'home' }: StructuredDataProps) {
     };
   };
 
-  const schemas = [organization, localBusiness, getBreadcrumb()];
+  const schemas = [organization, restaurant, getBreadcrumb()];
 
   return (
     <>

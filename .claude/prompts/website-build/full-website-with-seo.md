@@ -10,52 +10,254 @@
 
 ## INPUTS [EDIT HERE]
 
+Please run as much agents as possible in parallel to optimize time.
+Also use multiple agent instances where possible (e.g., for content writing in different languages).
+
 ### Business Information
-- **Company Name**: [Your company name]
-- **Industry**: [Industry/niche]
-- **Value Proposition**: [What makes you unique - 1-2 sentences]
-- **Target Audience**: [B2B/B2C, company size, demographics]
-- **Geographic Focus**: [Countries/regions you serve]
+- **Company Name**: BY THE WAY - BURGER & GRILLHAUS
+- **Industry**: Restaurant / Food Service
+- **Target Audience**: B2C - Local residents and tourists looking for dining options, casual eaters, families, and food enthusiasts. Standort: Dielsdorf 8157 in Switzerland.
+- **Geographic Focus**: Switzerland, specifically Dielsdorf 8157 and surrounding areas.
+- **Value Proposition**: Offering a diverse menu of high-quality burgers and grilled dishes made from fresh, locally sourced ingredients in a welcoming and casual dining atmosphere.
 
 ### Pages Required
 List all pages you need (examples):
 - Homepage
 - About Us
-- Services/Products
-- Pricing
-- Blog
-- Contact
-- FAQ
-- [Add more...]
+- Menu
+- Impressum
+- Datenschutz
 
 ### Languages
-- **Primary Language**: [e.g., en (English)]
-- **Secondary Languages**: [e.g., de (German), fr (French)]
+- **Primary Language**: Only in DE (German)
 
 ### SEO Keywords
-- **Primary Keywords** (1-3): [Main keywords you want to rank for]
-- **Secondary Keywords** (5-10): [Supporting keywords]
-- **Competitors**: [Competitor URLs to analyze]
+- **Primary Keywords** (1-3): Burger Dielsdorf, Grillhaus Dielsdorf
+- **Secondary Keywords** (5-10): You tell me more relevant keywords
+- **Competitors**: everyone in dielsdorf and surroundings
 
 ### Features
 Check all that apply:
-- [ ] Contact form
-- [ ] Blog/News section
+- [x] Contact infos, Telephone, address with map and opening hours
 - [ ] Pricing calculator
 - [ ] Booking/Demo scheduling
 - [ ] Newsletter signup
 - [ ] E-commerce
-- [ ] Customer testimonials
+- [x] Customer testimonials
 - [ ] Case studies
 - [ ] Multi-language support (next-intl)
-- [ ] SEO optimization
+- [x] SEO optimization
 - [ ] Analytics integration
 
+
+### Infos and Menu
+Here is the complete content of the menu card, organized into a clean Markdown format. I have arranged it logically, starting with the main "Burger & Grillhaus" page (Image 2) and following with the "Specialties & Sides" page (Image 1).
+
+***
+
+# BY THE WAY - BURGER & GRILLHAUS
+
+**📍 Abholung:** Wehntalerstrasse 1, 8162 Steinmaur
+**📞 Tel:** 077 290 52 31
+**🛵 Delivery:** Kostenlose Lieferung ab 15 CHF
+
+---
+
+## 🍔 SMASH BURGERS
+
+**TRIPLE SMASH BURGER | 22 CHF**
+Brioche Burger Bun, 3 x 75 g Smashed Beef Patty, 3 x Crispy Bacon, 3 x Cheddar-Käse, Eisberg, Tomate, Burger-Sauce, Crispy Zwiebeln
+
+**DELUXE SMASH BURGER | 19 CHF**
+Brioche Burger Bun, 2 x 75 g Smashed Beef Patty, Crispy Bacon, Eisberg, Tomate, Burger-Sauce, Crispy Zwiebeln, Edamer Käse
+
+**PROTEIN SMASH BURGER | 19 CHF**
+Brioche Burger Bun, 2 x 75 g Smashed Beef Patty, Crispy Bacon, Cheddar-Käse, Ei, Tomate, Salat, Burger-Sauce, Crispy Zwiebeln
+
+**FIRE SMASH BURGER | 17 CHF**
+Brioche Burger Bun, 2 x 75 g Smashed Beef Patty, Cheddar-Käse, Jalapeños, Eisberg, Tomate, Chili-Sauce
+
+**DOUBLE SMASH CHEESEBURGER | 15 CHF**
+Brioche Burger Bun, 2 x 75 g Smashed Beef Patty, 2 x Cheddar-Käse, Gurken, Zwiebeln, Ketchup, Senf
+
+---
+
+## 🍗 CHICKEN BURGERS
+
+**CRISPY CAESAR BURGER | 19 CHF**
+Brioche Burger Bun, Crispy Chicken Fillet, Crispy Bacon, Hausgemachte Caesar-Sauce, Eisberg, Tomate, Parmesan-Flakes
+
+**GOLDEN HONEY BURGER | 17 CHF**
+Brioche Burger Bun, Crispy Chicken Fillet, Honey-Mustard Sauce, Eisberg, Zwiebeln, Edamer Käse
+
+**HOT CHICKEN SANDWICH | 17 CHF**
+Hausgemachtes Taschenbrot, Gegrilltes Chicken Fillet, Eisberg, Piccante-Sauce, Edamer Käse, Chiliflocken
+
+---
+
+## 🥩 PREMIUM BURGERS
+
+**BY THE WAY BURGER | 20 CHF**
+Brioche Burger Bun, 200 g Schweizer Rindfleisch, Crispy Bacon, Mushrooms, Edamer Käse, Karamellisierte Zwiebeln, Eisberg, Mayo-Sauce
+
+**BIG BURGER | 20 CHF**
+Brioche Burger Bun, 2 x 100 g Schweizer Rindfleisch, Cheddar Käse, Eisberg, Burger-Sauce, Gurke
+
+**DELUXE BURGER | 19 CHF**
+Brioche Burger Bun, 200 g Schweizer Rindfleisch, Crispy Bacon, Eisberg, Tomate, Crispy Zwiebeln, Edamer Käse, Burger-Sauce
+
+**BBQ BURGER | 18 CHF**
+Brioche Burger Bun, 200 g Schweizer Rindfleisch, Crispy Bacon, Cheddar-Käse, Karamellisierte Zwiebeln, BBQ-Sauce
+
+**CHEESEBURGER | 15 CHF**
+Brioche Burger Bun, 200 g Schweizer Rindfleisch, Cheddar-Käse, Gurken, Zwiebeln, Ketchup, Senf
+
+---
+
+## 🥗 VEGGIE
+
+**VEGGIE BURGER | 14 CHF**
+Brioche Burger Bun, Veggie Patty, Edamer Käse, Eisberg, Tomate, Gurken, Burger-Sauce
+
+---
+
+## 🍟 MENU UPGRADE
+**MENU MIT POMMES UND SOFTGETRÄNK**
+**+ 5 CHF**
+
+***
+***
+
+# SPECIALS & SIDES
+
+## 🇧🇦 BALKAN BURGERS
+
+**B.B.B – BIG BOSS BURGER | 17 CHF**
+Burger Bun, 200 g Schweizer Rindfleisch, Gurken, Pommes (Original im Burger – auf Wunsch separat), Tomatensauce, Mayo-Sauce
+
+**BALKAN BURGER | 12 CHF**
+Hausgemachtes Taschenbrot, 200 g Schweizer Rindfleisch (Pljeskavica), Zwiebeln, Chiliflocken, Gurken
+
+**GOURMET PLJESKAVICA | 14 CHF**
+Hausgemachtes Taschenbrot, 250 g Schweizer Rindfleisch mit Käse (Gurmanska Pljeskavica), Zwiebeln, Chiliflocken
+
+---
+
+## 🔥 GRILL
+
+**CEVAPCICI**
+* **5 STK:** 10 CHF
+* **7 STK:** 13 CHF
+* **10 STK:** 17 CHF
+  Hausgemachtes Taschenbrot, Cevapcici, Zwiebeln, Salat nach Wahl, Ajvar, Chiliflocken
+
+**BRATWURST | 7 CHF**
+Kalbsbratwurst, Brötchen, Sauce
+
+**FAMILY MIX GRILL | 45 CHF**
+Pljeskavica, Cevapcici, Bratwurst, Gegrillte Pouletbrust, Mix Salat, Pommes, Ajvar, Hausgemachtes Taschenbrot, Zwiebeln
+
+---
+
+## 📦 BY THE WAY BOX
+
+**CRISPY CHICKEN SALAD | 12 CHF**
+Eisberg, Crispy Chicken, Cherry-Tomaten, Croutons, Parmesan-Flakes, Sauce
+
+**CHEESY CHICKEN BOX | 14 CHF**
+Crispy Chicken, Pommes, Cheddar-Käse, Sauce nach Wahl (BBQ, Caesar, Chipotle oder Burger-Sauce)
+
+**CHICKEN NUGGETS BOX MIT SAUCE**
+* **10 STK:** 10 CHF
+* **15 STK:** 15 CHF
+
+**GYROS BOX | 16.50 CHF**
+Gyros-Pita, Chicken | Pork Gyros, Pommes, Zwiebeln, Tomate, Senf, Tomatensauce, Tzaziki
+
+**GYROS-PITA | 13.50 CHF**
+Gyros-Pita, Chicken | Pork Gyros, Tzatziki, Zwiebeln, Tomate, Pommes, Ketchup, Senf
+
+**POMMES BOX | 7 CHF**
+
+---
+
+## 🧒 KINDER BOX
+
+**KINDER HAMBURGER | 5 CHF**
+Burger Bun, Schweizer Rindfleisch, Gurken, Ketchup
+
+**KINDER CHEESEBURGER | 6 CHF**
+Burger Bun, Schweizer Rindfleisch, Cheddar-Käse, Gurken, Ketchup
+
+**CHICKEN NUGGETS 5 STK | 5 CHF**
+
+🍟 **KINDER MENU** (Mit Pommes und Kindersaft): **+ 4 CHF**
+
+---
+
+## ➕ EXTRAS
+
+| Item | Price |
+| :--- | :--- |
+| **CHEESE** | 1 CHF |
+| **BACON** | 2 CHF |
+| **KAJMAK** | 3 CHF |
+| **BEEF PATTY** | 7 CHF |
+
+---
+
+## 🍰 DESSERT
+
+**DESSERT | 7 CHF**
+
+---
+
+## 🥤 GETRÄNKE
+
+**SOFTDRINKS | 3 CHF**
+Coca-Cola / Coca-Cola Zero
+Fanta / Sprite / Rivella
+Ice Tea / Red Bull
+
+**MINERAL (MIT / OHNE) | 3 CHF**
+
+**BIER | 4.50 CHF**
+
+---
+
+### 🕒 ÖFFNUNGSZEITEN (Opening Hours)
+
+**MITTWOCH – FREITAG:**
+11:00 – 13:30 & 17:00 – 21:00
+
+**SAMSTAG – SONNTAG:**
+13:00 – 21:00
+
+**📞 077 290 52 31**
+**instagram: BYTHEWAY.CH**
+
+**🇨🇭 100 % PREMIUM-QUALITÄT SCHWEIZER RINDFLEISCH**
+
 ### Brand Guidelines (Optional)
-- **Tone**: [Professional / Friendly / Technical / Playful]
-- **Colors**: [If you have specific brand colors, list hex codes]
-- **Fonts**: [If you have specific fonts]
-- **Logo**: [Path to logo file if available]
+- **Tone**: Professional / Friendly
+  Color Swatch,Name,Hex Code,Usage in Logo
+  ⚫️,Jet Black,#000000,The main outer circle and background.
+  ⚪️,Crisp White,#FFFFFF,"The main typography (""BY THE WAY"")."
+  🟤,Toasted Bronze,#CD7F32,The burger bun color and inner ring highlights.
+  🔴,Ember Red,#420D09,"The dark, deep red background strips (grill slats) behind the burger."
+  🟡,Cream / Beige,#FFFDD0,The neon-style outline of the burger layers (lettuce/cheese).
+  Suggested Usage for Marketing
+  If you are designing social media posts, a website, or new menus, here is how you should use these colors to stay consistent with the brand identity:
+
+Backgrounds: Use the Jet Black heavily to maintain that premium, night-time grill vibe.
+
+Headings: Use Crisp White for maximum readability against the black.
+
+Call to Actions (Buttons/Prices): Use the Toasted Bronze or Ember Red for things you want to stand out (like the "Order Now" button or the Price tags).
+
+Accents: Use the Cream color for subtle dividers or secondary text to avoid pure white eye-strain.
+
+Logo: just the name for now
 
 ---
 
@@ -64,7 +266,7 @@ Check all that apply:
 Copy this entire prompt to Parent:
 
 ```
-Create a complete Next.js 15 website with SEO optimization and multi-language support.
+Create a complete Next.js website with SEO optimization and multi-language support.
 
 **Business:**
 - Company: [Company Name]

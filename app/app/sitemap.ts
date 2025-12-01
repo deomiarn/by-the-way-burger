@@ -1,17 +1,14 @@
 import { MetadataRoute } from 'next';
 
-const BASE_URL = 'https://realecontinental.ch';
+const BASE_URL = 'https://bytheway.ch';
 
 const pages = [
   { path: '', priority: 1.0, changeFrequency: 'weekly' as const },
-  { path: '/about', priority: 0.8, changeFrequency: 'monthly' as const },
-  { path: '/services', priority: 0.9, changeFrequency: 'monthly' as const },
-  { path: '/contact', priority: 0.8, changeFrequency: 'monthly' as const },
-  { path: '/impressum', priority: 0.3, changeFrequency: 'yearly' as const },
-  { path: '/datenschutz', priority: 0.3, changeFrequency: 'yearly' as const },
+  { path: '/speisekarte', priority: 0.9, changeFrequency: 'weekly' as const },
+  { path: '/ueber-uns', priority: 0.8, changeFrequency: 'monthly' as const },
 ];
 
-const locales = ['de', 'en'];
+const locales = ['de'];
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const entries: MetadataRoute.Sitemap = [];
@@ -23,12 +20,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
         lastModified: new Date(),
         changeFrequency: page.changeFrequency,
         priority: page.priority,
-        alternates: {
-          languages: {
-            de: `${BASE_URL}/de${page.path}`,
-            en: `${BASE_URL}/en${page.path}`,
-          },
-        },
       });
     }
   }

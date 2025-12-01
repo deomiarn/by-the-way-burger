@@ -1,0 +1,65 @@
+{
+  "business": {
+    "name": "BY THE WAY - BURGER & GRILLHAUS",
+    "location": "Wehntalerstrasse 1, 8162 Steinmaur, Switzerland",
+    "phone": "077 290 52 31",
+    "instagram": "@BYTHEWAY.CH",
+    "industry": "Restaurant / Food Service",
+    "tone": "Premium, casual dining, Swiss quality"
+  },
+  "colors": {
+    "primary": "#CD7F32",
+    "primary_name": "Toasted Bronze",
+    "primary_usage": "CTAs, accents, burger buns",
+    "secondary": "#420D09",
+    "secondary_name": "Ember Red",
+    "secondary_usage": "Deep accents, grill theme",
+    "accent": "#FFFDD0",
+    "accent_name": "Cream",
+    "accent_usage": "Secondary text, dividers",
+    "background": "#000000",
+    "background_name": "Jet Black",
+    "background_usage": "Background, outer elements",
+    "foreground": "#FFFFFF",
+    "foreground_name": "Crisp White",
+    "foreground_usage": "Typography, headings"
+  },
+  "typography": {
+    "heading": "Inter",
+    "body": "Inter"
+  },
+  "logo": null,
+  "extracted_from": {
+    "colors": "agent-context-brand-analyzer.md",
+    "fonts": "default (Inter)",
+    "source": "client brief"
+  },
+  "css_variables": {
+    ":root": {
+      "--background": "#000000",
+      "--foreground": "#FFFFFF",
+      "--primary": "#CD7F32",
+      "--primary-foreground": "#FFFFFF",
+      "--secondary": "#420D09",
+      "--secondary-foreground": "#FFFFFF",
+      "--accent": "#FFFDD0",
+      "--accent-foreground": "#000000",
+      "--card": "#000000",
+      "--border": "#333333",
+      "--ring": "#CD7F32"
+    },
+    ".dark": {
+      "--background": "#000000",
+      "--foreground": "#FFFFFF",
+      "--primary": "#CD7F32",
+      "--primary-foreground": "#000000",
+      "--secondary": "#420D09",
+      "--secondary-foreground": "#FFFFFF",
+      "--accent": "#FFFDD0",
+      "--accent-foreground": "#000000",
+      "--card": "#1a1a1a",
+      "--border": "#333333",
+      "--ring": "#CD7F32"
+    }
+  }
+}
