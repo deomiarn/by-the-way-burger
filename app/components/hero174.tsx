@@ -31,7 +31,7 @@ const Hero174 = ({
         className="font-dm_sans dark relative h-[90svh] max-h-[1200px] min-h-[650px] w-full overflow-hidden bg-cover bg-center bg-no-repeat after:absolute after:inset-0 after:block after:size-full after:bg-zinc-950/60 after:content-['']"
         style={{ backgroundImage: `url('${backgroundImage}')` }}
       >
-        <div className="relative z-10 mx-auto flex size-full max-w-[125rem] px-4 py-9">
+        <div className="relative z-10 mx-auto flex size-full max-w-[125rem] px-4 pt-20 pb-9 md:py-9">
           <div className="flex w-full flex-col justify-end gap-20 md:justify-between md:gap-24">
             <div className="mx-auto flex max-w-[31.25rem] flex-col items-center justify-center gap-5 md:flex-1 md:gap-7 sm:max-w-[37.5rem] md:max-w-[50rem]">
               <h1 className="text-white text-center">
